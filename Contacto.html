@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head> 
+    <meta charset="UTF-8">
+    <title>UZUMAKI</title>
+    <meta name="viewport" 
+        content="width=device-width, user-scalable=yes, initial-scale=1.0, maximum-scale=3.0, minimum-scale=0.5">
+    <link rel="stylesheet" href="css/fontello.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="icon" href="Imagenes/spiral.png" sizes="32x32" type="image/jpg"> 
+
+    <style>
+
+    </style>
+
+</head>
+
+<body>
+    <img id="defondo" src="Imagenes/Adobe2.png"></img>
+    <header>
+        <div class="contenedor">
+            <h1><a href="index.html">UZUMAKI</a></h1>
+            <label class="icon-menu" for="menu-bar"></label>
+            <input type="checkbox" id="menu-bar">
+            <nav class="menu">
+                <a href="index.html">Inicio</a>
+                <div class="separador"></div>
+                <a href="Acerca.html">Acerca</a>
+                <div class="separador"></div>
+                <a href="Obras.html">Obras</a>
+                <div class="separador"></div>
+                <a href="Contacto.html">Contacto</a>
+            </nav>
+        </div>
+    </header>
+    <section id="contenedor">
+        <form class="contact_form" action="enviar.php" method="post">
+            <ul>
+                <p>
+                    <h2>Formulario de contacto</h2>
+                    <h3>Escríbinos y en breve nos pondremos en contacto</h3>
+                <p>
+                <li>
+                    <label for="Nombre:">Nombre</label>
+                    <input type="text" name="nombre" id="nombre" placeholder="Ingresa tu nombre" required="obligatorio">
+                </li>
+                <li>
+                    <label for="E-mail">E-mail</label>
+                    <input type="email" name="email" id="email" placeholder="email@dominio.com" required="obligatorio">
+                </li>
+                <li>
+                    <label for="Asunto">Asunto</label>
+                    <input type="text" name="asunto" id="asunto" required="obligatorio" placeholder="Ingresa tu asunto">
+                </li>
+                <li>
+                    <label for="Mensaje">Mensaje</label>
+                    <textarea name="mensaje" id="mensaje" cols="60" rows="7" required="obligatorio" placeholder="Deja aquí tu mensaje..."></textarea>
+                </li>
+                <p>
+                    <button class="submit" type="submit">Enviar</button>
+                </p>        
+            </ul>
+        </form>
+        <div class="aviso">
+                    <p class="obligatorio"> * </p>Los campos son obligatorios.
+        </div> 
+    </section>
+    <footer>
+        <div class="contenedor">
+            <p class="copy">UZUMAKI - Junji Ito &copy; 2023</p>
+            <div class="sociales">
+                <a class="icon-facebook-rect" href="https://www.facebook.com" target="_blank"></a>
+                <a class="icon-instagram-filled" href="https://www.instagram.com" target="_blank"></a>
+                <a class="icon-twitter" href="https://www.twitter.com" target="_blank"></a>
+                <a class="icon-mail" href="Contacto.html" target="_blank"></a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

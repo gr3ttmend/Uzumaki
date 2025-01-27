@@ -1,0 +1,145 @@
+img#defondo{
+  position:fixed;
+  min-width: 400px;
+  min-height: 500px;
+  top: 83%;
+  left: 26%;
+  transform: translateX(-50%) translateY(-50%);
+  z-index: -1;
+  
+}
+.contact_form{  
+    max-width: 460px; 
+    max-height: 630px;
+    margin: 80px auto;
+    border-radius: 10px;  
+    padding-top: 10px;
+    padding-bottom: 10px;  
+    background-color: rgba(121, 142, 155, 0.356);
+    padding-left: 25px; 
+
+  }
+  
+  
+  input{
+    background-color: #fbfbfb; 
+    width: 408px; 
+    height: 40px; 
+    border-radius: 5px;  
+    border-style: solid; 
+    border-width: 1px; 
+    border-color: #ab4493; 
+    margin-top: 10px;  
+    padding-left: 10px;
+    margin-bottom: 20px; 
+  }
+  
+  
+  textarea{
+    background-color: #fbfbfb; 
+    width: 405px; 
+    height: 130px; 
+    border-radius: 5px;  
+    border-style: solid; 
+    border-width: 1px; 
+    border-color: #ab4493; 
+    margin-top: 10px;  
+    padding-left: 10px;
+    margin-bottom: 20px; 
+    padding-top: 15px; 
+  }
+  
+  
+  label{
+    display: block;  
+  }
+  
+  
+  button{
+    height: 45px; 
+    padding-left: 5px;
+    padding-right: 5px;   
+    margin-bottom: 20px; 
+    margin-top: 10px;   
+    text-transform: uppercase;
+    background-color: #a30f34; 
+    border-color: #a30f34; 
+    border-style: solid; 
+    border-radius: 10px;  
+    width: 420px;   
+    cursor: pointer;
+  }
+  
+  
+  button li{
+    color: #fff; 
+  }
+  
+  
+  input{
+    color: #ab4493; 
+  }
+  
+  
+  .aviso{
+    font-size: 15px;  
+    color: #000000; 
+    text-align: center; 
+  }
+  
+  
+  h2{
+    font-size: 30px;  
+    text-align: left; 
+    padding-bottom: 20px; 
+    color: #ab4493;
+  }
+  
+  
+  h3{
+    font-size: 16px; 
+    padding-bottom: 30px;
+    color: #0e0e0e;   
+  }
+  
+  
+  li{
+    font-size: 14px; 
+    color: #0e0e0e; 
+  }
+  
+  
+  ::-webkit-input-placeholder {
+   color: #a8a8a8;
+  }
+  
+  
+  ::-webkit-textarea-placeholder {
+   color: #a8a8a8;
+  }
+  
+  
+  .formulario input:focus{
+    outline:0;
+    border: 1px solid #97d848;
+  }
+  
+  
+  .formulario textarea:focus{
+    outline:0;
+    border: 1px solid #97d848;
+  }
+
+  @media (min-width:700px){
+    .contact_form{
+        width: 50%;
+        height: auto;
+    }
+}
+@media (min-width:960px){
+    .contact_form{
+        width: auto;
+    }
+}
+
+  

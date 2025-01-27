@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Vujahday+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@1,300&display=swap');
+@import url(header.css);
+@import url(contacto.css);
+@import url(banner.css);
+@import url(mangas.css);
+@import url(adaptaciones.css);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+body{
+    font-family: 'Comic Neue', sans-serif;
+}
+
+.contenedor{
+    width: 98%;
+    margin: auto;
+}
+h1{
+    float: left;
+}
+section{
+    margin-bottom: 30px;
+}
+header{
+    font-family: 'Vujahday Script', sans-serif;
+    width: 100%;
+    height: 58px;
+    background: rgba(109, 29, 54, 0.808);
+    color: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+.contenedor{
+    width: 98%;
+    margin: auto;
+}
+h1{
+    float: left;
+    font-size: 35px;
+    margin-top: 12px;
+    font-weight: bolder;
+}
+nav {
+    float: right;
+    font-size: 19px;
+    margin-top: 12px;
+    font-family: Comic Neue;
+}
+header img{
+    float: left;
+    width: 40px;
+    height: auto;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    margin: 7px;
+}
+header .contenedor{
+    display:table; /*para que tenga el alto de sus hijos, y los encierre, sino no adopta altura*/
+}
+iframe {
+    width: 100%;
+    height: 300px;
+    max-width: 600px;
+}
+footer{
+    background: rgba(51, 51, 51, 0.9);
+}
+footer .contenedor{
+    font-family: 'Vujahday Script', sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 25px;
+    color: white;
+    padding-top: 25px;
+}
+.copy {
+    font-size: 20px;
+}
+.sociales{
+    width: 100%;
+    text-align: center;
+    font-size: 28px;
+}
+.sociales a{
+    text-decoration: none;
+    color: white;
+}
+.contac_form {
+    width: 460px; 
+    height: 100px;
+    margin: 70px auto;
+    border-radius: 10px;  
+    padding-top: 30px;
+    padding-bottom: 20px;  
+    background-color: #fbfbfb; 
+    padding-left: 30px; 
+}
+#bienvenidos{
+    text-align: center;
+}
+#bienvenido h3{
+    font-weight: bolder;
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: rgba(109, 29, 29, 0.918);
+}
+#bienvenidos p{
+    line-height: 30px;
+    text-align: justify;
+}
+#Uzumaki{
+    text-align: left;
+}
+#Uzumaki h2{
+    font-family: 'Vujahday Script', sans-serif;
+    font-weight: bolder;
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: rgba(109, 29, 29, 0.918);
+}
+#Uzumaki p {
+    text-align: justify;
+}
+#Junji {
+    text-align: left;
+}
+#Junji h2{
+    font-family: 'Vujahday Script', sans-serif;
+    font-weight: bolder;
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: rgba(109, 29, 29, 0.918);
+}
+#Junji p {
+    text-align: justify;
+}
+#mangas {
+    text-align: left;
+}
+#mangas .contenedor{
+    align-items: center;
+}
+#mangas h5{
+    font-family: 'Vujahday Script', sans-serif;
+    font-weight: bolder;
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: rgba(109, 29, 29, 0.918);
+}
+#mangas h2{
+    text-align: center;
+    color: black;
+    font-size: 20px;
+}
+#adaptaciones {
+    text-align: left;
+}
+#adaptaciones h5{
+    font-family: 'Vujahday Script', sans-serif;
+    font-weight: bolder;
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: rgba(109, 29, 29, 0.918);
+}
+#adaptaciones p{
+    text-align: center;
+}
+#adaptaciones h2{
+    font-family: 'Vujahday Script', sans-serif;
+    font-weight: bolder;
+    font-size: 20px;
+    margin-bottom: 5px;
+    color: rgba(109, 29, 29, 0.918);
+    text-align: center;
+}
+#PDF {
+    text-align: center;
+}
+#PDF .contenedor{
+    align-items: center;
+}
+#PDF h2{
+    font-family: 'Vujahday Script', sans-serif;
+    font-weight: bolder;
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: rgba(109, 29, 29, 0.918);
+    text-align: center;
+}
+@media(min-width: 768px){
+    .sociales {
+        width: auto;
+    }
+    footer .contenedor{
+        justify-content: space-between;
+    }
+    iframe{
+        height: 400px;
+    }
+}
+@media (min-width: 1024px){
+    .contenedor{
+        width: 1000px;
+    }
+}

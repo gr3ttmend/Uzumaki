@@ -1,0 +1,126 @@
+#banner {
+    margin-top: 50px;
+    position: relative;
+}
+#banner img {
+    width: 100%;
+    height: 100%;
+    border-bottom: 5px solid lightslategray;
+}
+#banner .contenedor {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    color: rgb(253, 252, 253);
+    text-shadow: 2px 2px black;
+}
+#banner h2 {
+    font-size: 1.6em;
+    color: rgb(241, 226, 208);
+}
+#banner a{
+    display: block;
+    width: 100px;
+    color: #03151f;
+    text-decoration: none;
+    padding: 5px;
+    margin-top: 8px;
+    text-align: center;
+    border: 3px solid black;
+    border-radius: 30px;
+    box-shadow: 1px 1px rgb(15, 0, 0);
+}
+#bienvenidos h4 {
+    font-family: 'Vujahday Script', sans-serif;
+    font-size: 1.6em;
+    color: rgba(109, 29, 54, 0.808);
+}
+#sobre{
+    margin-top: 50px;
+    position: relative;
+}
+#sobre img {
+    width: 100%;
+    height: 100%;
+    border-bottom: 5px solid lightslategray;
+}
+#sobre .contenedor {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px rgb(54, 53, 53);
+}
+#sobre h2{
+    font-size: 1.6em;
+    color: rgb(241, 226, 208);
+}
+#last {
+    margin-top: 50px;
+    position: relative;
+}
+#last img{
+    width: 100%;
+    height: 100%;
+    border-bottom: 5px solid lightslategray;
+}
+#last .contenedor{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px rgb(54, 53, 53);
+}
+#last h2 {
+    font-size: 1.6em;
+    color: rgb(241, 226, 208);
+}
+#banner a:hover{ /* hand over */
+    background: rgba(54, 54, 54, 0.815);
+}
+@media(min-width: 500px) {   /* media queries y tamaño de la ventana */
+    #banner h2{
+        font-size: 2em;
+    }
+    #bienvenidos h4{
+        font-size: 2em;
+    }
+}
+@media(min-width: 750px){
+    #banner{
+        height: 370px;
+        overflow: hidden;  /*para acortar la imagen luego de la cantidad de px sugerida*/
+    }
+    #banner img{
+        height: auto; /*para que la imagen reducida no se compacte sino que se recorte*/
+    }
+    #sobre{
+        height: 410px;
+        overflow: hidden;
+    }
+    #sobre img{
+        height: auto;
+    }
+    #last{
+        height: 410px;
+        overflow: hidden;
+    }
+    #last img{
+        height: auto;
+    }
+}
+@media(min-width: 1000px) {
+    #banner img{
+        margin-top: -100px; /*para que la imagen se adapte al tamaño de la ventana superando el rango dado*/
+        /* - corre la img para arriba y + para abajo */
+    }
+    #sobre img{
+        margin-top: -120px;
+    }
+    #last img{
+        margin-top: -240px;
+    }
+}

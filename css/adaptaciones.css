@@ -1,0 +1,38 @@
+#adaptaciones{
+    color: rgb(8, 8, 8);
+    text-align: center;
+    padding: 20px;
+}
+#adaptaciones .contenedor{
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -moz-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    -o-flex-wrap: wrap;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.anime { /*las class van con punto*/
+    margin: 10px;
+    max-width: 170px;
+    max-height: 300px;
+    text-align: center;
+    margin-right: 70px;
+}
+.anime img {
+    width: 160px;
+    height: 180px;
+    border: 1px solid white;
+    
+}
+
+@media (min-width:700px){
+    .anime{
+        width: 40%;
+    }
+}
+@media (min-width:960px){
+    .anime{
+        width: auto;
+    }
+}
