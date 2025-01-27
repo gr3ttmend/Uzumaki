@@ -67,14 +67,10 @@ img#defondo{
     border-style: solid; 
     border-radius: 10px;  
     width: 420px;   
-    cursor: pointer;
-  }
-  
-  
-  button li{
+    cursor: pointer; 
     color: #fff; 
+    text-decoration: none;
   }
-  
   
   input{
     color: #ab4493; 

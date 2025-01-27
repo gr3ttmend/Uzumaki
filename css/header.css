@@ -40,7 +40,7 @@ header label {
     text-decoration: none;
     text-shadow: 2px 2px 1px black; /* sombra de texto: desp-hor, desp-
     vert blur color */
-    padding: 15px;
+    padding: 10px;
     border-bottom: 1px solid rgda(255, 255, 255, 0.3);
 }
 
