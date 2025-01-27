@@ -13,8 +13,8 @@ try{
     $port = "587";
     $SMTPAuth = "login";
     $SMTPSecure = "tls";
-    $username = "grettwebs@gmail.com";                 //AQUÍ VA EL CORREO RECEPTOR DEL ENVIO DE MENSAJE
-    $password = "ocvmagkhhwfxtxin";                //AQUÍ VA LA PASSWORD DEL CORREO INDICADO ARRIBA
+    $username = "user@gmail.com";                 //AQUÍ VA EL CORREO RECEPTOR DEL ENVIO DE MENSAJE
+    $password = "*******";                //AQUÍ VA LA PASSWORD DEL CORREO INDICADO ARRIBA
 
     $mail = new PHPMailer\PHPMailer\PHPMailer();
     $mail->isSMTP();
